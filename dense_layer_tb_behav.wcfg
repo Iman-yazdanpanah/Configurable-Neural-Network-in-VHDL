@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dense_layer_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dense_layer_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="16521fs"></ZoomEndTime>
+      <Cursor1Time time="7000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/dense_layer_tb/inputs" type="array">
+      <obj_property name="ElementShortName">inputs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inputs[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dense_layer_tb/weights" type="array">
+      <obj_property name="ElementShortName">weights[95:0]</obj_property>
+      <obj_property name="ObjectShortName">weights[95:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dense_layer_tb/biases" type="array">
+      <obj_property name="ElementShortName">biases[47:0]</obj_property>
+      <obj_property name="ObjectShortName">biases[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dense_layer_tb/outputs" type="array">
+      <obj_property name="ElementShortName">outputs[47:0]</obj_property>
+      <obj_property name="ObjectShortName">outputs[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dense_layer_tb/DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dense_layer_tb/FRAC_BITS" type="other">
+      <obj_property name="ElementShortName">FRAC_BITS</obj_property>
+      <obj_property name="ObjectShortName">FRAC_BITS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dense_layer_tb/N_INPUTS" type="other">
+      <obj_property name="ElementShortName">N_INPUTS</obj_property>
+      <obj_property name="ObjectShortName">N_INPUTS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dense_layer_tb/N_NEURONS" type="other">
+      <obj_property name="ElementShortName">N_NEURONS</obj_property>
+      <obj_property name="ObjectShortName">N_NEURONS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dense_layer_tb/ACC_WIDTH" type="other">
+      <obj_property name="ElementShortName">ACC_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">ACC_WIDTH</obj_property>
+   </wvobject>
+</wave_config>
