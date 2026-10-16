@@ -41,14 +41,15 @@ The main training testbench currently uses:
 | Samples used for training | 3 |
 | Final inference check | 1 additional input |
 
-With Q9 representation, a raw integer value is interpreted as:
+With Q9 fixed-point representation, convert a raw integer to its real value using:
 
-\[
-x_{\text{real}} = \frac{x_{\text{raw}}}{2^9}
-\]
+**Real value = Raw value / 512**
 
-For example, raw value `512` represents `1.0`, and raw value `1024` represents `2.0`.
-
+For example:
+- `512` represents `1.0`
+- `1024` represents `2.0`
+- `-256` represents `-0.5`
+  
 The learning-rate signal is a **fixed-point raw value**. Therefore, `to_signed(2, DATA_WIDTH)` represents \(2/512 = 0.00390625\), not a learning rate of `2.0`.
 
 ## Architecture overview
