@@ -1,6 +1,6 @@
 #  Configurable Neural Network in VHDL
 
-A simulation-first neural-network library written in **VHDL** and developed with **AMD/Xilinx Vivado 2019**. The goal is to build a configurable, fixed-point multilayer perceptron (MLP) whose forward pass, backpropagation, and parameter updates are implemented in hardware-oriented VHDL—not delegated to Python or a software ML framework.
+A simulation-first neural-network library written in **VHDL** and developed with. The goal is to build a configurable, fixed-point multilayer perceptron (MLP) whose forward pass, backpropagation, and parameter updates are implemented in hardware-oriented VHDL—not delegated to Python or a software ML framework.
 
 > **Project status:** Experimental / under development. The current training-system testbench runs in Vivado behavioral simulation. Training behavior and fixed-point update precision are still being investigated.
 
@@ -29,7 +29,7 @@ The main training testbench currently uses:
 
 | Setting | Value |
 |---|---|
-| Tool | Vivado 2019 |
+| Tool | Vivado  |
 | HDL | VHDL |
 | Network architecture | `2 → 4 → 4 → 2` |
 | Data width | 16 bits |
@@ -71,7 +71,7 @@ Module names and interfaces may evolve as the project develops.
 
 ## Running the simulation
 
-1. Open the project in **Vivado 2019**.
+1. Open the project in **Vivado**.
 2. Ensure the VHDL source files and the testbench are included in the project.
 3. Set `training_system_tb` as the simulation top.
 4. Run **Behavioral Simulation**.
